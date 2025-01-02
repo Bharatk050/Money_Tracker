@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 const port = 3000;
 
-const uri = "mongodb+srv://<db_username>:<db_password>@bharat.fi8x5.mongodb.net/";
+const uri = "<>";
 const client = new MongoClient(uri);
 const dbName = "Tracker";
 const collectionName = "Money_Tracker";
