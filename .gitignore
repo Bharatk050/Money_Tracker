@@ -1,0 +1,164 @@
+# Money Tracker - .gitignore
+
+# ========================================
+# Python
+# ========================================
+*.py[cod]
+*$py.class
+*.so
+.Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ========================================
+# Virtual Environments
+# ========================================
+venv/
+venv_new/
+env/
+ENV/
+.venv/
+.env/
+*.env
+.virtualenv
+
+# ========================================
+# Environment Variables & Secrets
+# ========================================
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.json
+config.local.py
+
+# ========================================
+# Flask
+# ========================================
+instance/
+.webassets-cache
+*.db
+*.sqlite
+*.sqlite3
+
+# ========================================
+# IDEs & Editors
+# ========================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ========================================
+# Operating System
+# ========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# ========================================
+# Project Specific
+# ========================================
+# Generated forecast images
+static/forecast_*.png
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.bak
+*.swp
+
+# Test files
+test_*.py
+tests/__pycache__/
+
+# Documentation builds
+docs/_build/
+site/
+
+# ========================================
+# MongoDB
+# ========================================
+# Local MongoDB data (if using local instance)
+data/
+mongodb/
+
+# ========================================
+# Machine Learning
+# ========================================
+# Model files (if you save trained models)
+*.pkl
+*.joblib
+*.h5
+models/
+
+# ========================================
+# Node (if using any frontend tools)
+# ========================================
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-error.log
+
+# ========================================
+# Misc
+# ========================================
+*.csv
+*.xlsx
+*.xls
+exports/
+downloads/
+uploads/
+
+# Keep folder structure but ignore contents
+# !.gitkeep

@@ -1,0 +1,10 @@
+Flask
+pymongo
+python-dotenv
+Werkzeug
+dnspython
+numpy
+pandas
+matplotlib
+scikit-learn
+python-dateutil
